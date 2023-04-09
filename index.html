@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF=8" />
+    <meta name="author" content="mr vijay" />
+    <meta name="description" content="my 3rd assesment in odin school Html" />
+    <title>trying 3rd assignment in Html</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <h1>Macbook Air</h1>
+            <h2>Best Laptop ever</h2>
+          </td>
+          <td>
+            <img src="macbook.png" width="300" title="macbook" />
+          </td>
+        </tr>
+      </table>
+    </header>
+    <section>
+      <h2>About Macbook Air</h2>
+      <p>
+        Macbook Air is stikingly thin and brings exeoetional speed and power
+        effienciency within is durable all aluminium enclosures
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Model</th>
+            <th>Ram</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td rowspan="2">Mac book Air M1</td>
+            <td>8GB</td>
+          </tr>
+          <tr>
+            <td>2</td>
+
+            <td>16GB</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td rowspan="3">Macbook Air M2</td>
+            <td>8GB</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>16GB</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>24GB</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <h2>Buy Now</h2>
+    <form>
+      <fieldset>
+        <legend>Product Details</legend>
+        <label for="Product">Product name</label>
+        <select>
+          <optgroup label="Macbook Air M1">
+            <option value="8GB">8GB</option>
+            <option value="16GB">16GB</option>
+          </optgroup>
+          <optgroup label="Macbook Air M2">
+            <option value="8GB">8GB</option>
+            <option value="16GB">16GB</option>
+            <option value="24GB">24GB</option>
+          </optgroup>
+        </select>
+        <br />
+
+        <label for="Quanties"> Quantities</label>
+        <input />
+      </fieldset>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label>Full Name</label>
+        <input /><br />
+        <br />
+        <label>Age</label>
+        <input /> <br />
+        <br />
+
+        <label>Gender</label><br />
+        <input type="radio" value="Male" />
+        <label>Male</label>
+        <input type="radio" value="Male" />
+        <label>FeMale</label>
+        <input type="radio" value="Male" />
+        <label>Other</label>
+      </fieldset>
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+    <br />
+    <br />
+    <hr />
+    <p>&copy;<em> Copyright,OdinSchool!</em></p>
+  </body>
+</html>
